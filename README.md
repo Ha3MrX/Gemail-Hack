@@ -11,14 +11,14 @@ found I've had a MUCH higher success rate
 ### Download&Install
 
 ### git clone https://github.com/Ha3MrX/Gemail-Hack
-
+    ,,,,,,,,,
 ### cd Gemail-Hack
 
 ### chmod +x gemailhack.py
 
 ### python gemailhack.py
 
-#### ScrennShot
+### ScreenShot
 
 ![capture1](https://user-images.githubusercontent.com/33704360/38995760-7b25ec4c-439e-11e8-9430-c33bd9b1f5b4.PNG)
 
