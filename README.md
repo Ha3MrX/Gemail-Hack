@@ -3,10 +3,10 @@
 ### python script for Hack gmail account brute force 
 
 ### I've noticed a lot on this forum and other sites that Gmail is really difficult to crack with Hydra
-mostly because companies like Google have taken precautions against it. I've had some decent success with Hydra 
-against Gmail, but decided to write my own dictionary attack script to see if I could do any better
-Well, I wrote my script to use TLS on port 587 instead of Hydra using SSL on 465. So far I've 
-found I've had a MUCH higher success rate
+### mostly because companies like Google have taken precautions against it. I've had some decent success with Hydra 
+### against Gmail, but decided to write my own dictionary attack script to see if I could do any better
+### Well, I wrote my script to use TLS on port 587 instead of Hydra using SSL on 465. So far I've 
+#### found I've had a MUCH higher success rate
 
 ### Download&Install
 
