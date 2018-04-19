@@ -11,7 +11,7 @@ found I've had a MUCH higher success rate
 ### Download&Install
 
 ### git clone https://github.com/Ha3MrX/Gemail-Hack
-    ,,,,,,,,,
+    
 ### cd Gemail-Hack
 
 ### chmod +x gemailhack.py
