@@ -3,39 +3,11 @@
 
 import smtplib
 from os import system
+from src import artwork
 
-def main():
-   print '================================================='
-   print '               create by Ha3MrX                  '
-   print '================================================='
-   print '               ++++++++++++++++++++              '
-   print '\n                                               '
-   print '  _,.                                            '
-   print '                                                 '
-   print '                                                 '
-   print '           HA3MrX                                '
-   print '       _,.                   '
-   print '     ,` -.)                  '
-   print '    ( _/-\\-._               '
-   print '   /,|`--._,-^|            , '
-   print '   \_| |`-._/||          , | '
-   print '     |  `-, / |         /  / '
-   print '     |     || |        /  /  '
-   print '      `r-._||/   __   /  /   '
-   print '  __,-<_     )`-/  `./  /    '
-   print '  \   `---    \   / /  /     '
-   print '     |           |./  /      '
-   print '     /           //  /       '
-   print ' \_/  \         |/  /        '
-   print '  |    |   _,^- /  /         '
-   print '  |    , ``  (\/  /_         '
-   print '   \,.->._    \X-=/^         '
-   print '   (  /   `-._//^`           '
-   print '    `Y-.____(__}             '
-   print '     |     {__)              ' 
-   print '           ()   V.1.0        '
 
-main()
+
+artwork.banner()
 print '[1] start the attack'
 print '[2] exit'
 option = input('==>')
