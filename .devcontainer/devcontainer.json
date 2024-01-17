@@ -1,0 +1,11 @@
+{
+  "name": "Python 2 Development Container",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "settings": {
+    "pythonPath": "/usr/bin/python2"
+  },
+  "extensions": [],
+  "postCreateCommand": "apt-get update && apt-get install -y python2",
+  "forwardPorts": [],
+  "remoteUser": "vscode"
+}
